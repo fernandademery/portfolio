@@ -1,0 +1,12 @@
+div.projects-section {
+  position: absolute;
+  top: 10%;
+}
+
+div.projects-section h2 {
+  text-align: center;
+  letter-spacing: 0.6rem;
+  font-size: 28px;
+  color: #1b3752;
+  width: 100vw;
+}

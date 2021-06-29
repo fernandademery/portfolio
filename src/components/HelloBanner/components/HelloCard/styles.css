@@ -1,0 +1,35 @@
+div.social-hidden {
+  opacity: 0;
+  grid-area: card-start;
+  position: absolute;
+  top: 0;
+  left: -100%;
+  padding: 20% 35% 10% 20%;
+  opacity: 0;
+  background-color: rgba(47, 94, 141, 0.3);
+  border-radius: 6px;
+  transition: opacity ease-in-out 1s;
+}
+
+div.social-hidden.social-visible {
+  opacity: 1;
+}
+
+div.social-hidden div {
+  background-color: #eaf1f8;
+  padding: 0.5% 5%;
+  width: 100%;
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+div.social-hidden svg {
+  font-size: 50px;
+  color: #eaf1f8;
+  margin: 2% 2% 0 0;
+  transition: all ease-in-out 0.5s;
+}
+
+div.social-hidden svg:hover {
+  color: #6699cc;
+}

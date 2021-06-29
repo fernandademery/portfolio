@@ -1,0 +1,15 @@
+div.backToTop-button svg {
+  position: fixed;
+  right: 5%;
+  bottom: 5%;
+  z-index: 100;
+  font-size: 50px;
+  cursor: pointer;
+  transition: all ease-in-out 1s;
+  opacity: 0;
+  color: #204161;
+}
+
+div.backToTop-button.show svg {
+  opacity: 1;
+}

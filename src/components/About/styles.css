@@ -1,0 +1,66 @@
+section#about {
+  position: relative;
+  height: auto;
+  top: 110vh;
+  background-color: #eaf1f8;
+  box-sizing: content-box;
+}
+
+section#about h2 {
+  margin: 0;
+  text-align: center;
+  padding-top: 5%;
+  letter-spacing: 0.6rem;
+  font-size: 28px;
+  color: #1b3752;
+}
+
+section.about-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 80%;
+  margin: auto;
+}
+
+section.about-container section.intro,
+section.about-container section.stack {
+  padding: 5%;
+  line-height: 150%;
+}
+
+section.about-container section.intro p,
+section.about-container section.stack p,
+section.about-container section.stack ul {
+  font-size: 15px;
+  font-weight: 400;
+  color: #4a4a68;
+}
+
+section.about-container section.intro a,
+section.about-container section.stack a {
+  color: #4c81a8;
+  font-weight: 600;
+  text-decoration-thickness: 2px;
+  text-decoration-style: solid;
+}
+
+div.my-pic {
+  width: 100vw;
+  /* overflow-x: hidden; */
+  height: 50vh;
+  /* background-size: 100vw; */
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  position: relative;
+  grid-template-areas: "header header header" "card . .";
+}
+
+div.my-pic-background {
+  background-image: url(/src/assets/profile_pic.jpg);
+  -ms-background-position-x: left;
+  -ms-background-position-y: top;
+  background-position: top top;
+  background-size: cover;
+}

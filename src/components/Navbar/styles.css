@@ -1,0 +1,61 @@
+header {
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  width: 100%;
+  transition: background-color ease-in-out 0.3s;
+}
+
+header.scrolled,
+header.projects-page {
+  background-color: #eaf1f8;
+}
+
+header nav {
+  padding: 1% 2%;
+  display: flex;
+  transition: background-color ease-in-out 0.5s;
+}
+
+header nav a {
+  color: #ffffff;
+  margin-right: 2%;
+  font-size: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: all ease-in 0.5s;
+  border-bottom: 3px solid transparent;
+  font-weight: 600;
+}
+
+header.scrolled nav a,
+header.projects-page nav a {
+  color: #29465b;
+}
+
+header nav a:hover {
+  border-color: #fff;
+}
+
+header.scrolled nav a:hover,
+header.projects-page nav a:hover {
+  border-color: #29465b;
+}
+
+header nav a.logo {
+  font-size: 25px;
+
+  transition: transform 1s;
+}
+
+header nav a.logo:hover {
+  border-color: transparent;
+  color: lightgrey;
+  transform: rotate(360deg);
+}
+
+header.scrolled nav a.logo:hover,
+header.projects-page nav a.logo:hover {
+  color: #000776;
+}

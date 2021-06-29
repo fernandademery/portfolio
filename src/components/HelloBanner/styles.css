@@ -1,0 +1,38 @@
+div.hello-banner {
+  width: 100vw;
+  /* overflow-x: hidden; */
+  height: 110vh;
+  /* background-size: 100vw; */
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  position: absolute;
+  grid-template-areas: "header header header" "card . .";
+}
+
+div.hello-banner-background {
+  background-image: url(/src/assets/hello-banner.jpg);
+  -ms-background-position-x: center;
+  -ms-background-position-y: bottom;
+  background-position: center center;
+  background-size: cover;
+}
+
+div.name {
+  color: white;
+  grid-area: header;
+  margin-top: 20%;
+}
+
+div.name h1 {
+  font-size: 72px;
+  margin: 0;
+}
+
+div.name h3 {
+  font-size: 50px;
+  margin-top: 0.8%;
+  text-align: center;
+  font-weight: 400;
+}
