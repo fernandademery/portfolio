@@ -1,7 +1,7 @@
 export const projectsList = [
   {
     title: "vocable.me",
-    scr: "/src/assets/vocableme.png",
+    src: "portfolio/src/assets/vocableme.png",
     stack:
       "JavaScript (React/Redux/react-router), Python, PostgresPytest, Jest",
     description:
@@ -11,7 +11,7 @@ export const projectsList = [
   },
   {
     title: "Mytinerary",
-    scr: "/src/assets/mytinerary.png",
+    src: "/src/assets/mytinerary.png",
     stack:
       "JavaScript (React/Redux/react-router-dom/Node.js/Express), HTML, CSS, MongoDB",
     description:
@@ -21,7 +21,7 @@ export const projectsList = [
   },
   {
     title: "Be the Hero",
-    scr: "/src/assets/be_the_hero.png",
+    src: "/src/assets/be_the_hero.png",
     stack: "JavaScript (React/Node.js/Express), HTML, CSS, SQL",
     description:
       "Application for connecting NGO's with potential donors and volunteers. The NGO creates a project and asks for support. The donor/volunteer connects with the NGO and provides support",
@@ -30,7 +30,7 @@ export const projectsList = [
   },
   {
     title: "Infinite Gallery",
-    scr: "/src/assets/infinite_gallery.png",
+    src: "/src/assets/infinite_gallery.png",
     stack: "JavaScript (React/Redux), HTML, CSS",
     description:
       "Application for searching pictures or for scrolling through random photos. Results are queried from the specialized API provided by Unsplash.",
@@ -39,7 +39,7 @@ export const projectsList = [
   },
   {
     title: "Wackamole game",
-    scr: "/src/assets/infinite_gallery.png",
+    src: "/src/assets/infinite_gallery.png",
     stack: "JavaScript (React/Redux), HTML, CSS",
     description:
       "Application for searching pictures or for scrolling through random photos. Results are queried from the specialized API provided by Unsplash.",
@@ -48,7 +48,7 @@ export const projectsList = [
   },
   {
     title: "Casa Criativa",
-    scr: "/src/assets/casa_criativa.png",
+    src: "/src/assets/casa_criativa.png",
     stack: "JavaScript, HTML, CSS",
     description:
       "JavaScript Website for sharing suggestions of activities that can be done at home during COVID-19 social distancing period.",

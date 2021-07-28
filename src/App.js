@@ -1,15 +1,9 @@
-import {
-  Route,
-  NavLink,
-  BrowserRouter as Router,
-  Switch,
-} from "react-router-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
 import Navbar from "./components/Navbar/index";
 import BackToTop from "./components/BackToTop/index";
 import Home from "./components/Home/index";
-import About from "./components/About/index";
-import Projects from "./components/Projects/index";
+import { Projects } from "./components/Projects/index";
 import "./App.css";
 
 function App() {
