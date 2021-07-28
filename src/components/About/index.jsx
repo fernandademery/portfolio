@@ -23,11 +23,11 @@ export default function About() {
             </p>
             <p>
               In October of 2019 I decided to do a career change a became a
-              full-time programmer. I did a full-time intensive course where I
-              learnt JavaScript and the MERN arquitecture (MondoDB, Express,
-              React and node.js). And, since then, I have been working in
-              several projects. At the moment I am a frontend developer in a
-              young Berliner startup in the field of renewable energy
+              full-time programmer. I did an intensive course where I learnt
+              JavaScript and the MERN arquitecture (MondoDB, Express, React and
+              Node.js). And, since then, I have been working in several
+              projects. At the moment I am a frontend developer in a promising
+              German startup in the field of renewable energy.
             </p>
             <p>
               In my current personal project, I've teamed up with a group of
@@ -71,9 +71,10 @@ export default function About() {
             <p>These are some of the technologies that I'm familiar with:</p>
 
             <ul>
-              <li>JavaScript (ES6+)</li>
+              <li>JavaScript (ES6+) | TypeScript</li>
               <li>React.js</li>
-              <li>Redux</li>
+              <li>State management - Redux, Jotai</li>
+              <li>TDD - Cypress, Jest, React Testing Library</li>
               <li>Node.js - Express framework</li>
               <li>HTML | CSS | Bootstrap</li>
               <li>MVC Design</li>
