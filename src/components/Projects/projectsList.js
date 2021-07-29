@@ -1,7 +1,12 @@
+import vocableMe from "../../assets/vocableme.png";
+import mytinerary from "../../assets/mytinerary.png";
+import beTheHero from "../../assets/be_the_hero.png";
+import infiniteGallery from "../../assets/infinite_gallery.png";
+
 export const projectsList = [
   {
     title: "vocable.me",
-    src: "portfolio/src/assets/vocableme.png",
+    src: vocableMe,
     stack:
       "JavaScript (React/Redux/react-router), Python, PostgresPytest, Jest",
     description:
@@ -11,7 +16,7 @@ export const projectsList = [
   },
   {
     title: "Mytinerary",
-    src: "/src/assets/mytinerary.png",
+    src: mytinerary,
     stack:
       "JavaScript (React/Redux/react-router-dom/Node.js/Express), HTML, CSS, MongoDB",
     description:
@@ -21,7 +26,7 @@ export const projectsList = [
   },
   {
     title: "Be the Hero",
-    src: "/src/assets/be_the_hero.png",
+    src: beTheHero,
     stack: "JavaScript (React/Node.js/Express), HTML, CSS, SQL",
     description:
       "Application for connecting NGO's with potential donors and volunteers. The NGO creates a project and asks for support. The donor/volunteer connects with the NGO and provides support",
@@ -30,7 +35,7 @@ export const projectsList = [
   },
   {
     title: "Infinite Gallery",
-    src: "/src/assets/infinite_gallery.png",
+    src: infiniteGallery,
     stack: "JavaScript (React/Redux), HTML, CSS",
     description:
       "Application for searching pictures or for scrolling through random photos. Results are queried from the specialized API provided by Unsplash.",
@@ -42,9 +47,9 @@ export const projectsList = [
     src: "/src/assets/infinite_gallery.png",
     stack: "JavaScript (React/Redux), HTML, CSS",
     description:
-      "Application for searching pictures or for scrolling through random photos. Results are queried from the specialized API provided by Unsplash.",
-    deployed: "https://infinite-scroll-gallery.netlify.app/",
-    code: "https://github.com/fernandademery/infinite-gallery",
+      "Fun clicking game that doesn't require sign up, You can select different levels of difficulty to play and different round durations for your game.",
+    deployed: "https://whackamoolegame.netlify.app/",
+    code: "https://github.com/fernandademery/whackamole-game",
   },
   {
     title: "Casa Criativa",
