@@ -2,6 +2,8 @@ import vocableMe from "../../assets/vocableme.png";
 import mytinerary from "../../assets/mytinerary.png";
 import beTheHero from "../../assets/be_the_hero.png";
 import infiniteGallery from "../../assets/infinite_gallery.png";
+import wackamole from "../../assets/wackamole.png";
+import casaCriativa from "../../assets/casa_criativa.png";
 
 export const projectsList = [
   {
@@ -44,7 +46,7 @@ export const projectsList = [
   },
   {
     title: "Wackamole game",
-    src: "/src/assets/infinite_gallery.png",
+    src: wackamole,
     stack: "JavaScript (React/Redux), HTML, CSS",
     description:
       "Fun clicking game that doesn't require sign up, You can select different levels of difficulty to play and different round durations for your game.",
@@ -53,7 +55,7 @@ export const projectsList = [
   },
   {
     title: "Casa Criativa",
-    src: "/src/assets/casa_criativa.png",
+    src: casaCriativa,
     stack: "JavaScript, HTML, CSS",
     description:
       "JavaScript Website for sharing suggestions of activities that can be done at home during COVID-19 social distancing period.",

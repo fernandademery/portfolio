@@ -11,3 +11,32 @@ div.projects-section h2 {
   color: #fff;
   width: 100vw;
 }
+
+.cards-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.proj-card {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 280px;
+  margin-top: 10%;
+}
+
+.proj-img {
+  max-width: 280px;
+  display: block;
+}
+
+.proj-card h3 {
+  text-align: center;
+  font-weight: 600;
+  color: #1b3752;
+  font-size: 20px;
+}
