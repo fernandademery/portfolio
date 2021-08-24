@@ -33,7 +33,7 @@ export default function Navbar() {
         <a href="/#about">ABOUT</a>
 
         <a href="/projects">PROJECTS</a>
-        <a href="/contact">CONTACT</a>
+        <a href="/projects/#contact">CONTACT</a>
       </nav>
     </header>
   );

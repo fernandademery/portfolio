@@ -17,6 +17,7 @@ div.projects-section h2 {
   grid-template-columns: 1fr 1fr 1fr;
   margin: 0 auto;
   justify-items: center;
+  padding-bottom: 3%;
 }
 
 .proj-card {
@@ -25,13 +26,18 @@ div.projects-section h2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 280px;
+  max-width: 330px;
   margin-top: 10%;
+  box-shadow: 0 14px 28px rgb(0 0 0 / 90%), 0 10px 10px rgb(0 0 0 / 90%);
 }
 
 .proj-img {
-  max-width: 280px;
+  max-width: 330px;
   display: block;
+}
+
+.proj-card .proj-description {
+  padding: 1% 7%;
 }
 
 .proj-card h3 {
@@ -39,4 +45,33 @@ div.projects-section h2 {
   font-weight: 600;
   color: #1b3752;
   font-size: 20px;
+}
+
+.proj-card h6 {
+  padding: 1% 5%;
+  color: grey;
+}
+
+.proj-card p {
+  font-size: 14px;
+}
+
+.proj-card .links {
+  display: flex;
+  justify-content: space-between;
+  padding: 6% 6%;
+}
+
+.proj-card .links a {
+  font-size: 13px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#contact {
+  background-color: #fff;
+}
+
+#contact h2 {
+  color: #1b3752;
 }
