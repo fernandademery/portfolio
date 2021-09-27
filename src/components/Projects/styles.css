@@ -1,7 +1,7 @@
 div.projects-section {
   position: absolute;
   background-color: #1b3752;
-  padding: 2% 0;
+  padding: 2% 0 0 0;
 }
 
 div.projects-section h2 {
@@ -73,5 +73,31 @@ div.projects-section h2 {
 }
 
 #contact h2 {
+  color: #1b3752;
+  padding: 2% 0;
+}
+
+#contact div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#contact div p {
+  text-align: center;
+  font-size: 18px;
+}
+
+#contact div div.contact-links {
+  display: flex;
+  flex-direction: row;
+}
+
+#contact div div.contact-links a {
+  padding: 1% 2%;
+}
+
+#contact div div.contact-links a svg {
+  font-size: 50px;
   color: #1b3752;
 }
