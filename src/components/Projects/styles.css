@@ -91,6 +91,7 @@ div.projects-section h2 {
 #contact div div.contact-links {
   display: flex;
   flex-direction: row;
+  padding-bottom: 1.5%;
 }
 
 #contact div div.contact-links a {
@@ -100,4 +101,22 @@ div.projects-section h2 {
 #contact div div.contact-links a svg {
   font-size: 50px;
   color: #1b3752;
+}
+
+@media (max-width: 1030px) {
+  div.cards-container {
+    padding: 0 2% 3% 2%;
+  }
+
+  div.proj-card {
+    max-width: 280px;
+  }
+
+  .proj-img {
+    max-width: 280px;
+  }
+
+  .proj-card .links a {
+    font-size: 11px;
+  }
 }

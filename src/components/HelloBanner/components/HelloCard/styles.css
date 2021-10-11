@@ -33,3 +33,10 @@ div.social-hidden svg {
 div.social-hidden svg:hover {
   color: #6699cc;
 }
+
+@media (max-width: 1030px) {
+  div.social-hidden {
+    left: -30%;
+    width: 300px;
+  }
+}

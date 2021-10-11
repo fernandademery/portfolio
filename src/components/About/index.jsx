@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles.css";
+import Footer from "../Footer/index";
 
 export default function About() {
   return (
@@ -90,6 +91,7 @@ export default function About() {
         </section>
       </section>
       <div className="my-pic my-pic-background"></div>
+      <Footer />
     </section>
   );
 }
