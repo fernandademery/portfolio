@@ -120,3 +120,15 @@ div.projects-section h2 {
     font-size: 11px;
   }
 }
+
+@media (max-width: 850px) {
+  .cards-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .cards-container {
+    grid-template-columns: 1fr;
+  }
+}

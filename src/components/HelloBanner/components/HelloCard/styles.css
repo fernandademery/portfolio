@@ -40,3 +40,23 @@ div.social-hidden svg:hover {
     width: 300px;
   }
 }
+
+@media (max-width: 930px), (max-height: 1285px) {
+  div.social-hidden {
+    left: -20%;
+    width: 300px;
+  }
+}
+
+@media (max-width: 850px) {
+  div.social-hidden {
+    left: 5%;
+    width: 300px;
+  }
+}
+
+@media (max-height: 720px) {
+  div.social-hidden {
+    top: -55%;
+  }
+}

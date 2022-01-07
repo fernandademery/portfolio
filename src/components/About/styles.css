@@ -64,3 +64,23 @@ div.my-pic-background {
   background-position: top top;
   background-size: cover;
 }
+
+@media (max-width: 800px) {
+  section.about-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  div.my-pic {
+    height: 270px;
+  }
+  div.my-pic-background {
+    background-image: url(/src/assets/profile_pic.jpg);
+    -ms-background-position-x: right;
+    -ms-background-position-y: top;
+    background-position: top top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
