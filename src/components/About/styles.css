@@ -73,7 +73,7 @@ div.my-pic-background {
 
 @media (max-width: 500px) {
   div.my-pic {
-    height: 270px;
+    height: 240px;
   }
   div.my-pic-background {
     background-image: url(/src/assets/profile_pic.jpg);

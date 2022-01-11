@@ -59,3 +59,10 @@ header.scrolled nav a.logo:hover,
 header.projects-page nav a.logo:hover {
   color: #000776;
 }
+
+@media (max-width: 500px) {
+  header nav a {
+    font-size: 15px;
+    padding-top: 2%;
+  }
+}
