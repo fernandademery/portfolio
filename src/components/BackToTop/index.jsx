@@ -16,10 +16,13 @@ export default function BackToTop() {
     document.addEventListener("scroll", handleScroll);
   });
   return (
-    <div className={`backToTop-button ${scroll ? "show" : ""}`}>
-      <a href="#">
+    <div
+      className={`backToTop-button ${scroll ? "show" : ""}`}
+      onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+    >
+      <div>
         <FontAwesomeIcon icon={faChevronUp} />
-      </a>
+      </div>
     </div>
   );
 }
